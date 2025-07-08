@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Car Rental - Our Vehicles</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header id="main-header"></header>
+
+    <section class="vehicles" id="vehicles">
+        <h2>Available Cars</h2>
+        <div class="vehicle-list">
+            
+            <div class="vehicle-card">
+                <img src="images/sedan.png" alt="Audi A4">
+                <h3>Audi A4</h3>
+                <p>AC Fare: ৳ 1800/day <br> Non-AC Fare: ৳ 1500/day</p>
+            </div>
+
+            <div class="vehicle-card">
+                <img src="images/car2.webp" alt="Hyundai Creta">
+                <h3>Hyundai Creta</h3>
+                <p>AC Fare: ৳ 2000/day <br> Non-AC Fare: ৳ 1700/day</p>
+            </div>
+
+            <div class="vehicle-card">
+                <img src="images/bmw1.webp" alt="BMW 6-Series">
+                <h3>BMW 6-Series</h3>
+                <p>AC Fare: ৳ 3500/day <br> Non-AC Fare: ৳ 3000/day</p>
+            </div>
+
+            <div class="vehicle-card">
+                <img src="images/car4.webp" alt="Mercedes-Benz">
+                <h3>Mercedes-Benz E-Class</h3>
+                <p>AC Fare: ৳ 4000/day <br> Non-AC Fare: ৳ 3500/day</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="booking">
+        <h2>Book a car</h2>
+        <form id="bookingForm">
+            <select id="carType">
+                <option value="">Select Car Type</option>
+                <option value="Sedan">Sedan</option>
+                <option value="SUV">SUV</option>
+                <option value="Hatchback">Hatchback</option>
+            </select>
+            <input type="text" id="pickup" placeholder="Pick-up Location" />
+            <input type="text" id="dropoff" placeholder="Drop-off Location" />
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

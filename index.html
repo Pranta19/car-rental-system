@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CAR Rental</title>
+    <link rel="shortcut icon" href="logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="hed">
+        <div class="logo">
+            <img src="logo1.png" alt="" height="65px" style="margin: 0px 15px 20px;">
+             <h2>CAR <span id="spanre">Rental</span></h2>
+            </div>
+            </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="vehicles.html">Our Vehicles</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="our-team.html">Our Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button class="signin">
+              <a href="signin.html" class="textsign">Sign In</a>  
+            </button>
+            <button class="register" >
+              <a href="register.html" id="regi">Register</a>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h4>Plan your trip now</h4>
+            <h1>Save <span>big</span> with our car rental</h1>
+            <p>To contribute to positive change and achieve our sustainability goals with many extraordinary journeys.</p>
+            <div class="hero-buttons">
+                <button class="book-btn" id="bookRideBtn">Book Ride</button>
+
+                <button class="learn-btn">
+                    <a href="about.html" id="learn-button">
+                       <li>Learn More</li> 
+                    </a>
+                </button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/sedan.png" alt="Car Image" width="800px">
+        </div>
+    </section>
+
+    <section class="booking">
+        <h2>Book a car</h2>
+        <form id="bookingForm">
+            <select id="carType">
+                <option value="">Select Car</option>
+                <option value="Audi A4">Audi A4</option>
+                <option value="Hyundai Creta">Hyundai Creta</option>
+                <option value="BMW 6-Series">BMW 6-Series</option>
+                <option value="Mercedes-Benz E-Class">Mercedes-Benz E-Class</option>
+            </select>
+            <input type="text" id="pickup" placeholder="Pick-up Location">
+            <input type="text" id="dropoff" placeholder="Drop-off Location">
+            <input type="date" id="pickupDate" placeholder="Pick-up Date">
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

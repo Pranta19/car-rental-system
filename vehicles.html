@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAR Rental - Our Vehicles</title>
+     <link rel="shortcut icon" href="logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo1.png" alt="" height="65px" style="margin: 0px 15px 20px;">
+        <h2>CAR <span id="spanre">Rental</span></h2>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="vehicles.html">Our Vehicles</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="our-team.html">Our Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+   <div class="auth-buttons">
+            <button class="signin">
+              <a href="signin.html" class="textsign">Sign In</a>  
+            </button>
+            <button class="register" >
+              <a href="register.html" id="regi">Register</a>
+            </button>
+        </div>
+</header>
+
+<section class="vehicles">
+    <h2>Available Cars</h2>
+    <div class="vehicle-list">
+        
+        <div class="vehicle-card">
+            <img src="images/sedan.png" alt="Audi A4">
+            <h3>Audi A4</h3>
+            <p>AC Fare: 1800/day <br> Non-AC Fare:  1500/day</p>
+            <button class="book-now-btn" onclick="window.location.href='index.html?car=' + encodeURIComponent('Audi A4')">Book Now</button>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="images/car2.webp" alt="Hyundai Creta">
+            <h3>Hyundai Creta</h3>
+            <p>AC Fare: 2000/day <br> Non-AC Fare:  1700/day</p>
+            <button class="book-now-btn" onclick="window.location.href='index.html?car=' + encodeURIComponent('Hyundai Creta')">Book Now</button>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="images/bmw1.webp" alt="BMW 6-Series">
+            <h3>BMW 6-Series</h3>
+            <p>AC Fare: 3500/day <br> Non-AC Fare:  3000/day</p>
+            <button class="book-now-btn" onclick="window.location.href='index.html?car=' + encodeURIComponent('BMW 6-Series')">Book Now</button>
+        </div>
+
+        <div class="vehicle-card">
+            <img src="images/car4.webp" alt="Mercedes-Benz E-Class">
+            <h3>Mercedes-Benz E-Class</h3>
+            <p>AC Fare: 4000/day <br> Non-AC Fare:  3500/day</p>
+            <button class="book-now-btn" onclick="window.location.href='index.html?car=' + encodeURIComponent('Mercedes-Benz E-Class')">Book Now</button>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
