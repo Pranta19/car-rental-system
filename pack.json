@@ -1,0 +1,25 @@
+{
+  "name": "car-rental-2",
+  "version": "1.0.0",
+  "description": "Backend for car rental system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranta19/car-rental-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pranta19/car-rental-system/issues"
+  },
+  "homepage": "https://github.com/Pranta19/car-rental-system#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}

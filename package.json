@@ -1,0 +1,25 @@
+{
+  "name": "car-rental-2",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000c\u0000a\u0000r\u0000-\u0000r\u0000e\u0000n\u0000t\u0000a\u0000l\u0000-\u0000s\u0000y\u0000s\u0000t\u0000e\u0000m\u0000\r\u0000 \u0000",
+  "main": "route.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranta19/car-rental-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pranta19/car-rental-system/issues"
+  },
+  "homepage": "https://github.com/Pranta19/car-rental-system#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
